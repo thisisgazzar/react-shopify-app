@@ -1,12 +1,8 @@
-//import { Layout, Page, TextStyle } from '@shopify/polaris';
 import { EmptyState, Layout, Page } from '@shopify/polaris';
 import { ResourcePicker, TitleBar } from '@shopify/app-bridge-react';
 import store from 'store-js';
 import ResourceListWithProducts from '../components/ResourceList';
 
-/*<TextStyle variation="positive">
-    Sample app using React and Next.js
-            </TextStyle>*/
 const img = 'https://cdn.shopify.com/s/files/1/0757/9955/files/empty-state.svg';
 
 class Index extends React.Component {
@@ -59,8 +55,3 @@ class Index extends React.Component {
 }
 
 export default Index;
-//npm install ngrok -g https localhost
-//whitelist https://2168eb0a1990.ngrok.io/auth/callback
-//SHOPIFY_API_KEY='YOUR API KEY FROM SHOPIFY PARTNERS DASHBOARD'
-//SHOPIFY_API_SECRET_KEY='YOUR API SECRET KEY FROM SHOPIFY PARTNERS DASHBOARD'
-//.gitignore file

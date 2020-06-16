@@ -1,6 +1,5 @@
 import App from 'next/app';
 import Head from 'next/head';
-//2
 import { AppProvider } from '@shopify/polaris';
 import { Provider } from '@shopify/app-bridge-react';
 import '@shopify/polaris/styles.css';
@@ -39,5 +38,3 @@ class MyApp extends App {
 }
 
 export default MyApp;
-
-//authenticate app again https://57a7e84c1ec2.ngrok.io/auth?shop=reactstoretest.myshopify.com
